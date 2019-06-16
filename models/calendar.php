@@ -1,7 +1,7 @@
 <?php
-class HomeModel extends Model{
+class CalendarModel extends Model{
 	public function Index(){
-	    
+
 		return;
 	}
 }

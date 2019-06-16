@@ -18,8 +18,10 @@
 		<ul class="navbar-nav">
       <li><a href="<?php echo ROOT_URL; ?>">Domů</a></li>
       <li><a href="<?php echo ROOT_URL; ?>rozvrh/">Rozvrh</a></li>
-      <li><a href="<?php echo ROOT_URL; ?>blog/">Blog</a></li>
+      <li><a href="<?php echo ROOT_URL; ?>shares/">Shares</a></li>
       <li><a href="<?php echo ROOT_URL; ?>brambory/">Brambory</a></li>
+      <li><a href="<?php echo ROOT_URL; ?>calendar/">Kalendář</a></li>
+      <li><a href="<?php echo ROOT_URL; ?>download/">Download</a></li>
       <div class="navbar-right">
       	<a href="<?php echo ROOT_URL; ?>users/register">Register</a>
       	<a href="<?php echo ROOT_URL; ?>users/login">Login</a>
@@ -29,8 +31,11 @@
   <div id="side-menu" class="side-nav">
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
     <a href="<?php echo ROOT_URL; ?>">Domů</a>
-    <a href="<?php echo ROOT_URL; ?>blog/">>Blog</a>
+    <a href="<?php echo ROOT_URL; ?>rozvrh/">Rozvrh</a>
+    <a href="<?php echo ROOT_URL; ?>shares/">Shares</a>
     <a href="<?php echo ROOT_URL; ?>brambory/">Brambory</a>
+    <a href="<?php echo ROOT_URL; ?>calendar/">Kalendář</a>
+    <a href="<?php echo ROOT_URL; ?>download/">Download</a>
     <a href="<?php echo ROOT_URL; ?>users/login">Login</a>
     <a href="<?php echo ROOT_URL; ?>users/register">Register</a>
   </div>
